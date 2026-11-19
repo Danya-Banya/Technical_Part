@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Query, useQuery } from "@tanstack/react-query";
-import { getPhotos } from "./getPhotos";
+import { getPhotos } from "../api/getPhotos";
 
 export const usePhotos = () => {
   return useQuery({
